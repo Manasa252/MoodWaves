@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodWaves</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>MoodWaves</h1>
+        <div class="mood-buttons">
+            <button data-mood="calm">Calm</button>
+            <button data-mood="focus">Focus</button>
+            <button data-mood="energize">Energize</button>
+            <button data-mood="sleep">Sleep</button>
+        </div>
+        <div class="timer-controls">
+            <label for="timerSelect">⏱️ Focus Session:</label>
+            <select id="timerSelect">
+                <option value="0">Off</option>
+                <option value="15">15 min</option>
+                <option value="30">30 min</option>
+                <option value="60">60 min</option>
+            </select>
+        </div>
+        <div class="audio-controls">
+            <button id="playPauseBtn">Play</button>
+        </div>
+        <div id="moodQuote" class="mood-quote"></div>
+        <div class="breathing-guide-controls">
+            <button id="breathingToggleBtn">Start Breathing Guide</button>
+        </div>
+        <div id="breathingGuide" class="breathing-guide" style="display:none;">
+            <div class="breathing-circle">
+                <span id="breathingText">Breathe In…</span>
+            </div>
+            <button id="breathingEndBtn" class="breathing-end-btn">End</button>
+        </div>
+        <audio id="moodAudio" loop></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
