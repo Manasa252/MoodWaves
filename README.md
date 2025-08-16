@@ -1,11 +1,12 @@
 🌊 MoodWaves
 
-A simple web app that plays relaxing music based on your mood.
+🎶 Find your flow, relax your mind.
 
-Features
+MoodWaves is a minimal web app that lets you choose a mood and instantly play curated relaxing music to match it.
 
-Choose a mood: Calm, Energize, Focus, Sleep
+✨ Features
 
-Plays curated background tracks
-
-Clean, responsive design
+✅ Pick your vibe – Calm • Energize • Focus • Sleep
+🎵 Background tracks that loop seamlessly
+📱 Responsive design for desktop & mobile
+🌈 Mood-based colors that shift with your selection
